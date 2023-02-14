@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+### Welcome to my website portfolio repository. This page will be updated regularly as I learn new ways to improve my coding skills and showcase it my portfolio.
+
 <!--
 **vhatara/vhatara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
