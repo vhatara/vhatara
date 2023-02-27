@@ -1,8 +1,8 @@
 ### Hi there 👋
 
-### Welcome to my personal repository which contains my portfolio site. This will be updated I learn new skills, techniques, and technologies so I can showcase my learnings.
+### Welcome to my personal repository which contains my portfolio site. This will be updated as I learn new skills, techniques, and technologies so I can showcase my learnings.
 
-### https://vhatara.github.io/vhatara/
+### Please visit: https://vhatara.github.io/vhatara/
 
 <!--
 **vhatara/vhatara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
