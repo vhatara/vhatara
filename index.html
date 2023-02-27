@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Unbounded Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/9d4748e054.js" crossorigin="anonymous"></script>
+
+    <title>David Mendoza - Portfolio</title>
+</head>
+
+<body class="bg-dark">
+    <script src="js/script.js"></script>
+
+    <!-- Start of Navigation bar -->
+    <div class="navbar" id="myHeader">
+        <div class="navbar-left">
+            <!-- <a href="#"><img src="/images/logo.png"></a> -->
+            <a href="#">David<span>Mendoza</span></a>
+        </div>
+        <div class="navbar-right">
+            <a href="#"> Home </a>
+            <a href="#about-me"> About</a>
+            <a href="#portfolio"> Portfolio </a>
+            <a href="#contact-me"> Contact </a>
+            <a class="resume" target="_blank" href="David_Mendoza_Resume.pdf" download="David_Mendoza_Resume"> Résumé </a>
+        </div>
+    </div>
+    <!-- End of Navigation bar -->
+
+    <!-- Start of Landing Section -->
+    <section class="landing">
+        <div class="landing-text">
+            <h3>Hello, World!</3>
+            <h1 id="landing-name"> I am <span class="name-name"> David Mendoza<span class="dot">.</span></span></h1>
+            <p class="subtitle"> Software Engineer</p>
+        </div>
+    </section>
+    <!-- End of Landing Section -->
+
+    <!-- Start of About Section -->
+    <section class="about-me" id="about-me">
+        <div> About Me</div>
+            <div class="about-content">
+                <!-- <div class = "shp-rctangle"> -->
+                    <div class="about-text">
+                    <div>
+                        <img src="images/logo.png" draggable="false">
+                        <p class="description"> Dedicated IT consultant with 4-year total experience of supporting business systems by identifying and solving application issues and configuring applications to meet business process and requirements. <br> Seeks to join a company that can allow me to improve technical skills focusing on web development and related technologies. </p>
+                    </div>
+                </div>    
+                <!-- </div> -->
+            </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- Start of Projects Section -->
+    <section class="portfolio" id="portfolio">
+        <div>Projects</div>
+            <div class="projects">
+            <div class = "slider">
+                <div class="slides">
+                    <!-- start of radio buttons -->
+                    <input type = "radio" name="radio-btn" id="radio1">
+                    <input type = "radio" name="radio-btn" id="radio2">
+                    <input type = "radio" name="radio-btn" id="radio3">
+                    <input type = "radio" name="radio-btn" id="radio4">
+                    <!-- end of radio buttons -->
+                    <!-- start of slide images -->
+                    <div class = "slide first">
+                        <div class="slide-content">
+                            <a href="https://vhatara.github.io/jollidupe/" target="_blank" class="content-text"> Project - 1<p>Jolli-dupe</p></a>
+                        </div>
+                    </div>
+                    <div class = "slide">
+                        <div class="slide-content">
+                            <a href="#" target="_blank" class="content-text"> Project - 2<p>Login/Signup Page</p> </a>
+                        </div>
+                    </div>
+                    <div class = "slide">
+                        <div class="slide-content">
+                            <a href="#" target="_blank" class="content-text"> Project - 3 <p>...</p> </a>
+                        </div>
+                    </div>
+                    <div class = "slide">
+                        <div class="slide-content">
+                            <a href="#" target="_blank" class="content-text"> Project - 4 <p>...</p> </a>
+                        </div>
+                    </div>
+                    <!-- end of slide images -->
+                    <!-- start of auto-nav -->
+                    <div class = "navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!-- end of auto-nav -->
+                </div>
+                <!-- start of manual-nav -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!-- end of manual-nav -->
+            </div>
+        </div>
+    </section>
+    <!-- End of Projects Section -->
+
+    <!-- Start of Contact Section -->
+    <section class="contact-me" id="contact-me">
+        <div class="contact-title"> Contact Me</div>
+        <div class="contact-container">
+            <div class="contact-item"><i class="fa-solid fa-envelope"></i>Email:
+                  <div class="contact-email"><a href = "mailto: davidmndza98@gmail.com">davidmndza98@gmail.com</a></div>
+            </div>
+            <div class="contact-item"><i class="fa-brands fa-linkedin"></i>LinkedIn:
+                  <div class="contact-linkedin"><a href="https://www.linkedin.com/in/mendoza-david-cinco" target="_blank">David Mendoza</a></div>
+            </div>  
+            <div class="contact-item"><i class="fa-brands fa-facebook-messenger"></i>Messenger: 
+                  <div class="contact-messenger"><a href="https://www.messenger.com/t/1348558598603665/" target="_blank">David Mendoza</a></div>
+            </div>  
+          </div>
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- Start of Footer Section -->
+    <footer>
+        <p>David Mendoza, 2023  
+            <a href = https://github.com/vhatara target="_blank">
+            <i class="github-icon fa-brands fa-github"></i></a>
+        </p>
+      </footer> 
+    <!-- End of Footer Section -->
+
+    <!-- Progress Bar -->
+      <div id="progress">
+        <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+
+</body>
+</html>
