@@ -3,7 +3,6 @@
     --dk-blue: #18252d;
     --text-primary: #E4E6EB;
     --sidebar-height: calc(100vh - 48px);
-    --footer-width: calc(100vw - 48px);
     --nav-height: calc(100vh - 0px);
     --steps: 20;
     --typewriterSpeed: 3s;
@@ -75,6 +74,7 @@ body{
     color: var(--text-primary);
     padding: 20px;
 }
+
 .navbar-right > .resume {
     text-transform: uppercase;
     text-decoration: none;
@@ -403,9 +403,9 @@ body{
     margin: 10px;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 2px 2px 5px 0px grey;
-    -webkit-box-shadow: 2px 2px 5px 0px grey;
-    -moz-box-shadow: 2px 2px 5px 0px grey;
+    box-shadow: 0px 3px 4px 0px #6bb9b8;
+    -webkit-box-shadow: 0px 3px 4px 0px #6bb9b8;
+    -moz-box-shadow: 0px 3px 4px 0px #6bb9b8;
   }
 .contact-item i {   
     font-size: 16px;
@@ -468,3 +468,4 @@ footer {
     color: #001a2e;
 }
 
+/* Responsive */
