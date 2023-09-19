@@ -2,8 +2,6 @@
 
 ### Welcome to my personal repository which contains my portfolio site. This will be updated as I learn new skills, techniques, and technologies so I can showcase my learnings.
 
-### Please visit: https://davidmendozadev.vercel.app
-
 <!--
 **vhatara/vhatara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
